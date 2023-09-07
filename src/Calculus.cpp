@@ -1,5 +1,4 @@
 #include "../include/Calculus.hpp"
-#include <cmath>
 
 namespace Ontology
 {

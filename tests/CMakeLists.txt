@@ -3,8 +3,8 @@ cmake_minimum_required(VERSION 3.14)
 set(This OntologyTests)
 
 set(SRCS
-  ConstantsTest.cpp
-  LinearsTest.cpp
+  ConstantTest.cpp
+  LinearTest.cpp
 )
 
 add_executable(${This} ${SRCS})

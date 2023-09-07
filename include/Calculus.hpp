@@ -1,6 +1,7 @@
 #ifndef CALCULUS_HPP
 #define CALCULUS_HPP
 
+#include <cmath>
 #include "./BaseFunctions/Linear.hpp"
 #include "./BaseFunctions/Constant.hpp"
 

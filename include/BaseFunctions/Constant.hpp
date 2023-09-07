@@ -9,12 +9,12 @@ namespace Ontology
     class Constant : public Function
     {
     public:
-        Constant(double n) : _n(n){};
+        Constant(double value) : _k(value){};
         virtual double compute(double x);
         virtual std::unique_ptr<Function> derive();
 
     private:
-        double _n;
+        double _k;
     };
     
 }

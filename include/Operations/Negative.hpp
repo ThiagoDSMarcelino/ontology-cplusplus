@@ -2,7 +2,6 @@
 #define NEGATIVE_HPP
 
 #include "../Function.hpp"
-#include "../BaseFunctions/Constant.hpp"
 
 namespace Ontology
 {

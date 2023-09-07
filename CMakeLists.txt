@@ -14,6 +14,7 @@ set(SRCS
   ${SRC_DIR}/Calculus.cpp
   ${SRC_DIR}/BaseFunctions/Constant.cpp
   ${SRC_DIR}/BaseFunctions/Linear.cpp
+  ${SRC_DIR}/Operations/Sum.cpp
   ${SRC_DIR}/Operations/Negative.cpp
 )
 
@@ -22,6 +23,7 @@ set(HEADERS
   ${INCLUDE_DIR}/Calculus.hpp
   ${INCLUDE_DIR}/BaseFunctions/Constant.hpp
   ${INCLUDE_DIR}/BaseFunctions/Linear.hpp
+  ${INCLUDE_DIR}/Operations/Sum.hpp
   ${INCLUDE_DIR}/Operations/Negative.hpp
 )
 

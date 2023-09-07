@@ -5,7 +5,7 @@ namespace Ontology
 
     inline double Constant::compute(double x)
     {
-        return this->_n;
+        return this->_k;
     }
 
     inline std::unique_ptr<Function> Constant::derive()
