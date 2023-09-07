@@ -1,17 +1,17 @@
 #ifndef CONSTANT_HPP
 #define CONSTANT_HPP
 
-#include "IFunction.hpp"
+#include "../Function.hpp"
 
 namespace Ontology
 {
 
-    class Constant : public IFunction<Constant>
+    class Constant : public Function
     {
         public:
             Constant(double n);
-            virtual double operator[](double x);
-            virtual Constant Derive();
+            virtual double compute(double x);
+            virtual std::unique_ptr<Function> derive();
         
         private:
             double _n;

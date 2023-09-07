@@ -1,8 +1,8 @@
 #ifndef CALCULUS_HPP
 #define CALCULUS_HPP
 
-#include "Linear.hpp"
-#include <memory>
+#include "./BaseFunctions/Linear.hpp"
+#include "./BaseFunctions/Constant.hpp"
 
 namespace Ontology
 {
@@ -10,10 +10,12 @@ namespace Ontology
 class Calculus
 {
     public:
-        static Linear x();
+        static std::shared_ptr<Function> x();
+        static std::shared_ptr<Function> k(double x);
 
     private:
         static std::shared_ptr<Linear> _linear;
+        static std::shared_ptr<Constant> _constant;
 };
 
 }
