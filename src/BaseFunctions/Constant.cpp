@@ -3,16 +3,14 @@
 namespace Ontology
 {
 
-Constant::Constant(double n) {
-    this->_n = n;
-}
+    inline double Constant::compute(double x)
+    {
+        return this->_n;
+    }
 
-double Constant::compute(double x) {
-    return this->_n;
-}
-
-std::unique_ptr<Function> Constant::derive() {
-    return std::make_unique<Constant>(0);
-}
-
+    inline std::unique_ptr<Function> Constant::derive()
+    {
+        return std::make_unique<Constant>(0);
+    }
+    
 }

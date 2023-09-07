@@ -6,13 +6,13 @@
 namespace Ontology
 {
 
-class Function
-{
+    class Function
+    {
     public:
         virtual double compute(double x) = 0;
         virtual std::unique_ptr<Function> derive() = 0;
-};
-
+    };
+    
 }
 
 #endif

@@ -3,16 +3,14 @@
 namespace Ontology
 {
 
-Negative::Negative(std::shared_ptr<Function> u) {
-    this->_u = u;
-}
+    inline double Negative::compute(double x)
+    {
+        return -this->_u->compute(x);
+    }
 
-double Negative::compute(double x) {
-    return -this->_u->compute(x);
-}
-
-std::unique_ptr<Function> Negative::derive() {
-    return std::make_unique<Negative>(this->_u->derive());
-}
-
+    inline std::unique_ptr<Function> Negative::derive()
+    {
+        return std::make_unique<Negative>(this->_u->derive());
+    }
+    
 }

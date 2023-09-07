@@ -3,12 +3,14 @@
 namespace Ontology
 {
 
-double Linear::compute(double x) {
-    return x;
-}
+    inline double Linear::compute(double x)
+    {
+        return x;
+    }
 
-std::unique_ptr<Function> Linear::derive() {
-    return std::make_unique<Constant>(1);
-}
-
+    inline std::unique_ptr<Function> Linear::derive()
+    {
+        return std::make_unique<Constant>(1);
+    }
+    
 }

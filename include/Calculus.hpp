@@ -7,8 +7,8 @@
 namespace Ontology
 {
 
-class Calculus
-{
+    class Calculus
+    {
     public:
         static std::shared_ptr<Function> x();
         static std::shared_ptr<Function> k(double x);
@@ -16,8 +16,8 @@ class Calculus
     private:
         static std::shared_ptr<Linear> _linear;
         static std::shared_ptr<Constant> _constant;
-};
-
+    };
+    
 }
 
 #endif
