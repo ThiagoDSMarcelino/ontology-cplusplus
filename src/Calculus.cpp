@@ -1,4 +1,5 @@
 #include "../include/Calculus.hpp"
+#include <cmath>
 
 namespace Ontology
 {
@@ -23,6 +24,28 @@ namespace Ontology
         }
 
         return _constant;
+    }
+
+    std::shared_ptr<Constant> Calculus::_pi = nullptr;
+    std::shared_ptr<Function> Calculus::pi()
+    {
+        if (!_pi)
+        {
+            _pi = std::make_shared<Constant>(M_PI);
+        }
+
+        return _pi;
+    }
+
+    std::shared_ptr<Constant> Calculus::_euler = nullptr;
+    std::shared_ptr<Function> Calculus::euler()
+    {
+        if (!_euler)
+        {
+            _euler = std::make_shared<Constant>(M_E);
+        }
+
+        return _euler;
     }
     
 }

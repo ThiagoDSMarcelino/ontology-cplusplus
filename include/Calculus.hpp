@@ -12,10 +12,14 @@ namespace Ontology
     public:
         static std::shared_ptr<Function> x();
         static std::shared_ptr<Function> k(double x);
+        static std::shared_ptr<Function> pi();
+        static std::shared_ptr<Function> euler();
 
     private:
         static std::shared_ptr<Linear> _linear;
         static std::shared_ptr<Constant> _constant;
+        static std::shared_ptr<Constant> _pi;
+        static std::shared_ptr<Constant> _euler;
     };
     
 }
