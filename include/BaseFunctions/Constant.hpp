@@ -11,7 +11,7 @@ namespace Ontology
     public:
         Constant(const double value) : k(value){};
         virtual double compute(const double x);
-        virtual std::unique_ptr<Function> derive();
+        virtual std::shared_ptr<Function> derive();
 
     private:
         double k;

@@ -8,9 +8,9 @@ namespace Ontology
         return this->u_ptr->compute(x) + this->v_ptr->compute(x);
     }
 
-    inline std::unique_ptr<Function> Sum::derive()
+    inline std::shared_ptr<Function> Sum::derive()
     {
-        return std::make_unique<Sum>(this->u_ptr->derive(), this->v_ptr->derive());
+        return std::make_shared<Sum>(this->u_ptr->derive(), this->v_ptr->derive());
     }
 
 }

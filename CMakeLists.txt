@@ -16,6 +16,7 @@ set(SRCS
   ${SRC_DIR}/BaseFunctions/Linear.cpp
   ${SRC_DIR}/Operations/Sum.cpp
   ${SRC_DIR}/Operations/Negative.cpp
+  ${SRC_DIR}/Operations/Multiplication.cpp
 )
 
 set(HEADERS
@@ -25,6 +26,7 @@ set(HEADERS
   ${INCLUDE_DIR}/BaseFunctions/Linear.hpp
   ${INCLUDE_DIR}/Operations/Sum.hpp
   ${INCLUDE_DIR}/Operations/Negative.hpp
+  ${INCLUDE_DIR}/Operations/Multiplication.hpp
 )
 
 add_library(${This} STATIC ${SRCS} ${HEADERS})

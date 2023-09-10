@@ -8,9 +8,9 @@ namespace Ontology
         return this->k;
     }
 
-    inline std::unique_ptr<Function> Constant::derive()
+    inline std::shared_ptr<Function> Constant::derive()
     {
-        return std::make_unique<Constant>(0);
+        return std::make_shared<Constant>(0);
     }
 
 }

@@ -10,7 +10,7 @@ namespace Ontology
     {
     public:
         virtual double compute(const double) = 0;
-        virtual std::unique_ptr<Function> derive() = 0;
+        virtual std::shared_ptr<Function> derive() = 0;
     };
 
 }
