@@ -11,6 +11,7 @@ set(SRC_DIR ${CMAKE_SOURCE_DIR}/src)
 set(INCLUDE_DIR ${CMAKE_SOURCE_DIR}/include)
 
 set(SRCS
+  ${SRC_DIR}/Function.cpp
   ${SRC_DIR}/Calculus.cpp
   ${SRC_DIR}/BaseFunctions/Constant.cpp
   ${SRC_DIR}/BaseFunctions/Linear.cpp
