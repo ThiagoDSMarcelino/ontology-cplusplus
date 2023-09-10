@@ -3,48 +3,48 @@
 namespace Ontology
 {
 
-    std::shared_ptr<Linear> Calculus::_linear = nullptr;
+    std::shared_ptr<Linear> Calculus::linear_ptr = nullptr;
     std::shared_ptr<Function> Calculus::x()
     {
-        if (!_linear)
+        if (!linear_ptr)
         {
-            _linear = std::make_shared<Linear>();
+            linear_ptr = std::make_shared<Linear>();
         }
 
-        return _linear;
+        return linear_ptr;
     }
 
-    std::shared_ptr<Constant> Calculus::_constant = nullptr;
+    std::shared_ptr<Constant> Calculus::constant_ptr = nullptr;
     std::shared_ptr<Function> Calculus::k(double x)
     {
-        if (!_constant)
+        if (!constant_ptr)
         {
-            _constant = std::make_shared<Constant>(x);
+            constant_ptr = std::make_shared<Constant>(x);
         }
 
-        return _constant;
+        return constant_ptr;
     }
 
-    std::shared_ptr<Constant> Calculus::_pi = nullptr;
+    std::shared_ptr<Constant> Calculus::pi_ptr = nullptr;
     std::shared_ptr<Function> Calculus::pi()
     {
-        if (!_pi)
+        if (!pi_ptr)
         {
-            _pi = std::make_shared<Constant>(M_PI);
+            pi_ptr = std::make_shared<Constant>(M_PI);
         }
 
-        return _pi;
+        return pi_ptr;
     }
 
-    std::shared_ptr<Constant> Calculus::_euler = nullptr;
+    std::shared_ptr<Constant> Calculus::euler_ptr = nullptr;
     std::shared_ptr<Function> Calculus::euler()
     {
-        if (!_euler)
+        if (!euler_ptr)
         {
-            _euler = std::make_shared<Constant>(M_E);
+            euler_ptr = std::make_shared<Constant>(M_E);
         }
 
-        return _euler;
+        return euler_ptr;
     }
-    
+
 }

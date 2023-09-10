@@ -5,17 +5,17 @@
 
 namespace Ontology
 {
-    
+
     class Sum : public Function
     {
     public:
-        Sum(std::shared_ptr<Function> f, std::shared_ptr<Function> g) : _f(f), _g(g) {};
-        virtual double compute(double x);
+        Sum(const std::shared_ptr<Function> u, const std::shared_ptr<Function> v) : u_ptr(u), v_ptr(v){};
+        virtual double compute(const double);
         virtual std::unique_ptr<Function> derive();
 
     private:
-        std::shared_ptr<Function> _f;
-        std::shared_ptr<Function> _g;
+        std::shared_ptr<Function> u_ptr;
+        std::shared_ptr<Function> v_ptr;
     };
 
 }

@@ -5,16 +5,16 @@
 
 namespace Ontology
 {
-    
+
     class Negative : public Function
     {
     public:
-        Negative(std::shared_ptr<Function> u) : _u(u) {};
-        virtual double compute(double x);
+        Negative(const std::shared_ptr<Function> u) : u_ptr(u){};
+        virtual double compute(const double);
         virtual std::unique_ptr<Function> derive();
 
     private:
-        std::shared_ptr<Function> _u;
+        std::shared_ptr<Function> u_ptr;
     };
 
 }
