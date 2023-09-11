@@ -3,24 +3,48 @@
 namespace Ontology
 {
 
-    std::shared_ptr<Function> Function::operator-()
+    std::shared_ptr<Function> operator-(std::shared_ptr<Function> f)
     {
-        return std::make_shared<Negative>(shared_from_this());
+        return std::make_shared<Negative>(f);
     }
 
-    std::shared_ptr<Function> Function::operator-(const std::shared_ptr<Function> other)
+    std::shared_ptr<Function> operator-(double n, std::shared_ptr<Function> g)
     {
-        return std::make_shared<Sum>(shared_from_this(), -*other);
+        return std::make_shared<Sum>(std::make_shared<Constant>(n), -g);
+    }
+    std::shared_ptr<Function> operator-(std::shared_ptr<Function> f, double n)
+    {
+        return std::make_shared<Sum>(f, -std::make_shared<Constant>(n));
+    }
+    std::shared_ptr<Function> operator-(std::shared_ptr<Function> f, std::shared_ptr<Function> g)
+    {
+        return std::make_shared<Sum>(f, -g);
     }
     
-    std::shared_ptr<Function> Function::operator+(const std::shared_ptr<Function> other)
+    std::shared_ptr<Function> operator+(double n, std::shared_ptr<Function> g)
     {
-        return std::make_shared<Sum>(shared_from_this(), other);
+        return std::make_shared<Sum>(std::make_shared<Constant>(n), g);
+    }
+    std::shared_ptr<Function> operator+(std::shared_ptr<Function> f, double n)
+    {
+        return std::make_shared<Sum>(f, std::make_shared<Constant>(n));
+    }
+    std::shared_ptr<Function> operator+(std::shared_ptr<Function> f, std::shared_ptr<Function> g)
+    {
+        return std::make_shared<Sum>(f, g);
     }
 
-    std::shared_ptr<Function> Function::operator*(const std::shared_ptr<Function> other)
+    std::shared_ptr<Function> operator*(double n, std::shared_ptr<Function> g)
     {
-        return std::make_shared<Multiplication>(shared_from_this(), other);
+        return std::make_shared<Multiplication>(std::make_shared<Constant>(n), g);
+    }
+    std::shared_ptr<Function> operator*(std::shared_ptr<Function> f, double n)
+    {
+        return std::make_shared<Multiplication>(f, std::make_shared<Constant>(n));
+    }
+    std::shared_ptr<Function> operator*(std::shared_ptr<Function> f, std::shared_ptr<Function> g)
+    {
+        return std::make_shared<Multiplication>(f, g);
     }
 
 }

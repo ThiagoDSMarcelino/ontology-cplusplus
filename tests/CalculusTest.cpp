@@ -6,7 +6,8 @@ using namespace Ontology;
 
 TEST(CALCULUS, CONSTANT)
 {
-  auto f = Calculus::create_constant(M_PI);
+  auto k = Calculus::create_constant(M_PI);
+  auto f = k;
   auto derivate = f->derive();
 
   EXPECT_DOUBLE_EQ(f->compute(10), M_PI);
@@ -15,7 +16,8 @@ TEST(CALCULUS, CONSTANT)
 
 TEST(CALCULUS, VARIABLE)
 {
-  auto f = Calculus::create_variable();
+  auto x = Calculus::create_variable();
+  auto f = x;
   auto derivate = f->derive();
 
   EXPECT_DOUBLE_EQ(f->compute(10), 10);

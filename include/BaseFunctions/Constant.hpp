@@ -14,7 +14,7 @@ namespace Ontology
         virtual std::shared_ptr<Function> derive();
 
     private:
-        double k;
+        const double k;
     };
 
 }

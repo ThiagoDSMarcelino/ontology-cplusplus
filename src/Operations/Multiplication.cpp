@@ -11,7 +11,7 @@ namespace Ontology
     inline std::shared_ptr<Function> Multiplication::derive()
     {
         const auto uDerivative = this->u_ptr->derive();
-        const auto vDerivative = this->u_ptr->derive();
+        const auto vDerivative = this->v_ptr->derive();
 
         return std::make_shared<Sum>(std::make_shared<Multiplication>(uDerivative, v_ptr), std::make_shared<Multiplication>(vDerivative, u_ptr));
     }

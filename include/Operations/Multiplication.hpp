@@ -1,8 +1,7 @@
-#ifndef Multiplication_HPP
-#define Multiplication_HPP
+#ifndef MULTIPLICATION_HPP
+#define MULTIPLICATION_HPP
 
 #include "Sum.hpp"
-#include "../Function.hpp"
 
 namespace Ontology
 {
@@ -15,8 +14,8 @@ namespace Ontology
         virtual std::shared_ptr<Function> derive();
 
     private:
-        std::shared_ptr<Function> u_ptr;
-        std::shared_ptr<Function> v_ptr;
+        const std::shared_ptr<Function> u_ptr;
+        const std::shared_ptr<Function> v_ptr;
     };
 
 }

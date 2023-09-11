@@ -14,8 +14,8 @@ namespace Ontology
         virtual std::shared_ptr<Function> derive();
 
     private:
-        std::shared_ptr<Function> u_ptr;
-        std::shared_ptr<Function> v_ptr;
+        const std::shared_ptr<Function> u_ptr;
+        const std::shared_ptr<Function> v_ptr;
     };
 
 }

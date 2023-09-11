@@ -9,8 +9,8 @@ namespace Ontology
     class Calculus
     {
     public:
-        static std::shared_ptr<Linear> create_variable();
-        static std::shared_ptr<Constant> create_constant(const double);
+        static std::shared_ptr<Function> create_variable();
+        static std::shared_ptr<Function> create_constant(const double);
     };
 
 }
