@@ -1,4 +1,4 @@
-#include "../../include/BaseFunctions/Linear.hpp"
+#include "../../../include/Core/BaseFunctions/Linear.hpp"
 
 namespace Ontology
 {

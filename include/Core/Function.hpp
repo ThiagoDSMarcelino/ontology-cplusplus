@@ -29,9 +29,9 @@ namespace Ontology
 
 }
 
-#include "./BaseFunctions/Constant.hpp"
-#include "./Operations/Multiplication.hpp"
-#include "./Operations/Negative.hpp"
-#include "./Operations/Sum.hpp"
+#include "BaseFunctions/Constant.hpp"
+#include "Operations/Multiplication.hpp"
+#include "Operations/Negative.hpp"
+#include "Operations/Sum.hpp"
 
 #endif

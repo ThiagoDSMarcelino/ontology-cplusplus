@@ -22,7 +22,6 @@ TEST(SUM, NUMBER_FUNCTION)
     EXPECT_DOUBLE_EQ(f->compute(10), 15);
     EXPECT_DOUBLE_EQ(derivate->compute(10), 1);
 }
-
 TEST(SUM, FUNCTION_NUMBER)
 {
     auto x = Calculus::create_variable();
@@ -32,7 +31,6 @@ TEST(SUM, FUNCTION_NUMBER)
     EXPECT_DOUBLE_EQ(f->compute(10), 15);
     EXPECT_DOUBLE_EQ(derivate->compute(10), 1);
 }
-
 TEST(SUM, FUNCTION_FUNCTION)
 {
     auto x = Calculus::create_variable();
@@ -52,7 +50,6 @@ TEST(SUB, NUMBER_FUNCTION)
     EXPECT_DOUBLE_EQ(f->compute(10), -5);
     EXPECT_DOUBLE_EQ(derivate->compute(10), -1);
 }
-
 TEST(SUB, FUNCTION_NUMBER)
 {
     auto x = Calculus::create_variable();
@@ -62,7 +59,6 @@ TEST(SUB, FUNCTION_NUMBER)
     EXPECT_DOUBLE_EQ(f->compute(10), 5);
     EXPECT_DOUBLE_EQ(derivate->compute(10), 1);
 }
-
 TEST(SUB, FUNCTION_FUNCTION)
 {
     auto x = Calculus::create_variable();
@@ -82,7 +78,6 @@ TEST(MULT, NUMBER_FUNCTION)
     EXPECT_DOUBLE_EQ(f->compute(10), 50);
     EXPECT_DOUBLE_EQ(derivate->compute(10), 5);
 }
-
 TEST(MULT, FUNCTION_NUMBER)
 {
     auto x = Calculus::create_variable();
@@ -92,7 +87,6 @@ TEST(MULT, FUNCTION_NUMBER)
     EXPECT_DOUBLE_EQ(f->compute(10), 50);
     EXPECT_DOUBLE_EQ(derivate->compute(10), 5);
 }
-
 TEST(MULT, FUNCTION_FUNCTION)
 {
     auto x = Calculus::create_variable();

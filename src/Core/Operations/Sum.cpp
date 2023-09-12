@@ -1,4 +1,4 @@
-#include "../../include/Operations/Sum.hpp"
+#include "../../../include/Core/Operations/Sum.hpp"
 
 namespace Ontology
 {
