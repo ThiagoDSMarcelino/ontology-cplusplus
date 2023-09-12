@@ -1,7 +1,7 @@
-#ifndef LINEAR_HPP
-#define LINEAR_HPP
+#ifndef CORE_BASE_FUNCTIONS_LINEAR_HPP_
+#define CORE_BASE_FUNCTIONS_LINEAR_HPP_
 
-#include "Constant.hpp"
+#include "constant.hpp"
 
 namespace Ontology
 {

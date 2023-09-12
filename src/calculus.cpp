@@ -1,4 +1,4 @@
-#include "../include/Calculus.hpp"
+#include "../include/calculus.hpp"
 
 namespace Ontology
 {

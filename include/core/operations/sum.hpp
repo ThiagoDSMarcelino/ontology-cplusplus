@@ -1,7 +1,7 @@
-#ifndef SUM_HPP
-#define SUM_HPP
+#ifndef CORE_OPERATIONS_SUM_HPP_
+#define CORE_OPERATIONS_SUM_HPP_
 
-#include "../Function.hpp"
+#include "../function.hpp"
 
 namespace Ontology
 {

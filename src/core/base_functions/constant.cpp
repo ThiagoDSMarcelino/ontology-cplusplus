@@ -1,4 +1,4 @@
-#include "../../../include/Core/BaseFunctions/Constant.hpp"
+#include "../../../include/core/base_functions/constant.hpp"
 
 namespace Ontology
 {

@@ -1,4 +1,4 @@
-#include "../../include/Core/Function.hpp"
+#include "../../include/core/function.hpp"
 
 namespace Ontology
 {

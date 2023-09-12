@@ -1,5 +1,5 @@
-#ifndef IFUNCTION_HPP
-#define IFUNCTION_HPP
+#ifndef CORE_FUNCTION_HPP_
+#define CORE_FUNCTION_HPP_
 
 #include <memory>
 
@@ -29,9 +29,9 @@ namespace Ontology
 
 }
 
-#include "BaseFunctions/Constant.hpp"
-#include "Operations/Multiplication.hpp"
-#include "Operations/Negative.hpp"
-#include "Operations/Sum.hpp"
+#include "base_functions/constant.hpp"
+#include "operations/multiplication.hpp"
+#include "operations/negative.hpp"
+#include "operations/sum.hpp"
 
 #endif

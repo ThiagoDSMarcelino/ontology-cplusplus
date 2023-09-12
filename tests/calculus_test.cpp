@@ -1,6 +1,6 @@
 #include <cmath>
 #include <gtest/gtest.h>
-#include "../include/Calculus.hpp"
+#include "../include/calculus.hpp"
 
 using namespace Ontology;
 

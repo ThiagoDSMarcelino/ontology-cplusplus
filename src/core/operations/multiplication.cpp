@@ -1,4 +1,4 @@
-#include "../../../include/Core/Operations/Multiplication.hpp"
+#include "../../../include/core/operations/multiplication.hpp"
 
 namespace Ontology
 {

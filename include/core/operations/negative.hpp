@@ -1,7 +1,7 @@
-#ifndef NEGATIVE_HPP
-#define NEGATIVE_HPP
+#ifndef CORE_OPERATIONS_NEGATIVE_HPP_
+#define CORE_OPERATIONS_NEGATIVE_HPP_
 
-#include "../Function.hpp"
+#include "../function.hpp"
 
 namespace Ontology
 {

@@ -1,7 +1,7 @@
-#ifndef CALCULUS_HPP
-#define CALCULUS_HPP
+#ifndef CALCULUS_HPP_
+#define CALCULUS_HPP_
 
-#include "Core/BaseFunctions/Linear.hpp"
+#include "core/base_functions/linear.hpp"
 
 namespace Ontology
 {

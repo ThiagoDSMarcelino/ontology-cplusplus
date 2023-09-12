@@ -1,4 +1,4 @@
-#include "../../../include/Core/Operations/Negative.hpp"
+#include "../../../include/core/operations/negative.hpp"
 
 namespace Ontology
 {
