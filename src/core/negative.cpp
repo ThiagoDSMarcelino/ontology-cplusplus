@@ -1,6 +1,6 @@
-#include "../../../include/core/operations/negative.hpp"
+#include "../../include/core/negative.hpp"
 
-namespace Ontology
+namespace Ontology::Core
 {
 
     inline double Negative::compute(double x)

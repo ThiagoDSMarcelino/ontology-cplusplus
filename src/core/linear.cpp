@@ -1,6 +1,6 @@
-#include "../../../include/core/base_functions/linear.hpp"
+#include "../../include/core/linear.hpp"
 
-namespace Ontology
+namespace Ontology::Core
 {
 
     inline double Linear::compute(double x)

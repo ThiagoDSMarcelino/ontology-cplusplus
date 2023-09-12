@@ -1,7 +1,7 @@
 #ifndef CALCULUS_HPP_
 #define CALCULUS_HPP_
 
-#include "core/base_functions/linear.hpp"
+#include "core/linear.hpp"
 
 namespace Ontology
 {
@@ -9,8 +9,8 @@ namespace Ontology
     class Calculus
     {
     public:
-        static std::shared_ptr<Function> create_variable();
-        static std::shared_ptr<Function> create_constant(const double);
+        static std::shared_ptr<Core::Function> create_variable();
+        static std::shared_ptr<Core::Function> create_constant(const double);
     };
 
 }

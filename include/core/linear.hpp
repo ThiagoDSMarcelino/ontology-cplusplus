@@ -3,7 +3,7 @@
 
 #include "constant.hpp"
 
-namespace Ontology
+namespace Ontology::Core
 {
 
     class Linear : public Function

@@ -1,6 +1,6 @@
 #include "../../include/core/function.hpp"
 
-namespace Ontology
+namespace Ontology::Core
 {
 
     std::shared_ptr<Function> operator-(std::shared_ptr<Function> f)

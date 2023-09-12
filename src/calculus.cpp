@@ -3,14 +3,14 @@
 namespace Ontology
 {
 
-    std::shared_ptr<Function> Calculus::create_variable()
+    std::shared_ptr<Core::Function> Calculus::create_variable()
     {
-        return std::make_shared<Linear>();
+        return std::make_shared<Core::Linear>();
     }
 
-    std::shared_ptr<Function> Calculus::create_constant(double x)
+    std::shared_ptr<Core::Function> Calculus::create_constant(double x)
     {
-        return std::make_shared<Constant>(x);
+        return std::make_shared<Core::Constant>(x);
     }
 
 }

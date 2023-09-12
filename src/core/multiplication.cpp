@@ -1,6 +1,6 @@
-#include "../../../include/core/operations/multiplication.hpp"
+#include "../../include/core/multiplication.hpp"
 
-namespace Ontology
+namespace Ontology::Core
 {
 
     inline double Multiplication::compute(double x)

@@ -1,6 +1,6 @@
-#include "../../../include/core/operations/sum.hpp"
+#include "../../include/core/sum.hpp"
 
-namespace Ontology
+namespace Ontology::Core
 {
 
     inline double Sum::compute(double x)

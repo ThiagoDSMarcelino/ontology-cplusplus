@@ -1,9 +1,9 @@
 #ifndef CORE_OPERATIONS_SUM_HPP_
 #define CORE_OPERATIONS_SUM_HPP_
 
-#include "../function.hpp"
+#include "function.hpp"
 
-namespace Ontology
+namespace Ontology::Core
 {
 
     class Sum : public Function

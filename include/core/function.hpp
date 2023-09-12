@@ -3,7 +3,7 @@
 
 #include <memory>
 
-namespace Ontology
+namespace Ontology::Core
 {
 
     class Function
@@ -29,9 +29,9 @@ namespace Ontology
 
 }
 
-#include "base_functions/constant.hpp"
-#include "operations/multiplication.hpp"
-#include "operations/negative.hpp"
-#include "operations/sum.hpp"
+#include "constant.hpp"
+#include "multiplication.hpp"
+#include "negative.hpp"
+#include "sum.hpp"
 
 #endif

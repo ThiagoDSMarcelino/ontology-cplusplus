@@ -1,6 +1,6 @@
-#include "../../../include/core/base_functions/constant.hpp"
+#include "../../include/core/constant.hpp"
 
-namespace Ontology
+namespace Ontology::Core
 {
 
     inline double Constant::compute(double x)

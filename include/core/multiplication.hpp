@@ -3,7 +3,7 @@
 
 #include "sum.hpp"
 
-namespace Ontology
+namespace Ontology::Core
 {
 
     class Multiplication : public Function
