@@ -5,7 +5,7 @@ namespace Ontology::Core
 
     inline double Constant::compute(double x)
     {
-        return this->k;
+        return k;
     }
 
     inline std::shared_ptr<Function> Constant::derive()

@@ -26,12 +26,17 @@ namespace Ontology::Core
     std::shared_ptr<Function> operator*(const double, const std::shared_ptr<Function>);
     std::shared_ptr<Function> operator*(const std::shared_ptr<Function>, const double);
     std::shared_ptr<Function> operator*(const std::shared_ptr<Function>, const std::shared_ptr<Function>);
+    
+    std::shared_ptr<Function> operator/(const double, const std::shared_ptr<Function>);
+    std::shared_ptr<Function> operator/(const std::shared_ptr<Function>, const double);
+    std::shared_ptr<Function> operator/(const std::shared_ptr<Function>, const std::shared_ptr<Function>);
 
 }
 
 #include "constant.hpp"
-#include "multiplication.hpp"
-#include "negative.hpp"
-#include "sum.hpp"
+#include "operations/multiplication.hpp"
+#include "operations/negative.hpp"
+#include "operations/division.hpp"
+#include "operations/sum.hpp"
 
 #endif

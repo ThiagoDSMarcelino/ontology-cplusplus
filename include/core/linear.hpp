@@ -1,5 +1,5 @@
-#ifndef CORE_BASE_FUNCTIONS_LINEAR_HPP_
-#define CORE_BASE_FUNCTIONS_LINEAR_HPP_
+#ifndef CORE_LINEAR_HPP_
+#define CORE_LINEAR_HPP_
 
 #include "constant.hpp"
 
