@@ -31,3 +31,13 @@ TEST(CALCULUS, NATURAL_LOGARITHM)
   EXPECT_DOUBLE_EQ(f->compute(10), 2.3025850929940459);
   EXPECT_DOUBLE_EQ(derivate->compute(10), 0);
 }
+
+TEST(CALCULUS, LOGARITHM)
+{
+  auto x = create_variable();
+  auto f = log(x, 10);
+  auto derivate = f->derive();
+
+  EXPECT_DOUBLE_EQ(f->compute(100), 2);
+  EXPECT_DOUBLE_EQ(derivate->compute(100), 0.0043429448190325176);
+}

@@ -20,6 +20,7 @@ set(SRCS
   ${SRC_CORE_DIR}/function.cpp
   ${SRC_CORE_DIR}/constant.cpp
   ${SRC_CORE_DIR}/linear.cpp
+  ${SRC_CORE_DIR}/logarithm.cpp
   ${SRC_CORE_DIR}/natural_logarithm.cpp
   ${SRC_OPERATIONS_DIR}/sum.cpp
   ${SRC_OPERATIONS_DIR}/negative.cpp
@@ -32,6 +33,7 @@ set(HEADERS
   ${INCLUDE_CORE_DIR}/function.hpp
   ${INCLUDE_CORE_DIR}/constant.hpp
   ${INCLUDE_CORE_DIR}/linear.hpp
+  ${INCLUDE_CORE_DIR}/logarithm.hpp
   ${INCLUDE_CORE_DIR}/natural_logarithm.hpp
   ${INCLUDE_OPERATIONS_DIR}/sum.hpp
   ${INCLUDE_OPERATIONS_DIR}/negative.hpp
