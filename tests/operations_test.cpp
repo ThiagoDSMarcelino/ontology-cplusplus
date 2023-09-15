@@ -1,11 +1,9 @@
 #include <gtest/gtest.h>
 #include "../include/ontology.hpp"
 
-using namespace Ontology;
-
 TEST(OPERATIONS, NEGATIVE)
 {
-    auto x = create_variable();
+    auto x = Ontology::create_variable();
     auto f = -x;
     auto derivate = f->derive();
 
@@ -15,7 +13,7 @@ TEST(OPERATIONS, NEGATIVE)
 
 TEST(OPERATIONS, SUM)
 {
-    auto x = create_variable();
+    auto x = Ontology::create_variable();
     auto f = x + x;
     auto derivate = f->derive();
 
@@ -25,7 +23,7 @@ TEST(OPERATIONS, SUM)
 
 TEST(OPERATIONS, SUBTRACTION)
 {
-    auto x = create_variable();
+    auto x = Ontology::create_variable();
     auto f = x - x;
     auto derivate = f->derive();
 
@@ -35,7 +33,7 @@ TEST(OPERATIONS, SUBTRACTION)
 
 TEST(OPERATIONS, MULTIPLICATION)
 {
-    auto x = create_variable();
+    auto x = Ontology::create_variable();
     auto f = x * x;
     auto derivate = f->derive();
 
@@ -45,7 +43,7 @@ TEST(OPERATIONS, MULTIPLICATION)
 
 TEST(OPERATIONS, DIVISION)
 {
-    auto x = create_variable();
+    auto x = Ontology::create_variable();
     auto f = x / x;
     auto derivate = f->derive();
 

@@ -1,5 +1,5 @@
-#ifndef CORE_CONSTANT_HPP_
-#define CORE_CONSTANT_HPP_
+#ifndef ONTOLOGY_CORE_CONSTANT_HPP
+#define ONTOLOGY_CORE_CONSTANT_HPP
 
 #include "function.hpp"
 

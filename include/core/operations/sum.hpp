@@ -1,5 +1,5 @@
-#ifndef CORE_OPERATIONS_SUM_HPP_
-#define CORE_OPERATIONS_SUM_HPP_
+#ifndef ONTOLOGY_CORE_OPERATIONS_SUM_HPP
+#define ONTOLOGY_CORE_OPERATIONS_SUM_HPP
 
 #include "../function.hpp"
 

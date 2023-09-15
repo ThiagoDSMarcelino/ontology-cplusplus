@@ -1,9 +1,11 @@
-#ifndef ONTOLOGY_HPP_
-#define ONTOLOGY_HPP_
+#ifndef ONTOLOGY_ONTOLOGY_HPP
+#define ONTOLOGY_ONTOLOGY_HPP
 
 #include "core/linear.hpp"
 #include "core/logarithm.hpp"
 #include "core/natural_logarithm.hpp"
+#include "core/sine.hpp"
+#include "core/cosine.hpp"
 
 namespace Ontology
 {
@@ -18,6 +20,12 @@ namespace Ontology
 
     std::shared_ptr<Core::Function> ln(const double);
     std::shared_ptr<Core::Function> ln(const std::shared_ptr<Core::Function>);
+
+    std::shared_ptr<Core::Function> sin(const double);
+    std::shared_ptr<Core::Function> sin(const std::shared_ptr<Core::Function>);
+
+    std::shared_ptr<Core::Function> cos(const double);
+    std::shared_ptr<Core::Function> cos(const std::shared_ptr<Core::Function>);
 
 }
 

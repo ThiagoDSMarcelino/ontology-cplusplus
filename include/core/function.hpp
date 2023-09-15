@@ -1,5 +1,5 @@
-#ifndef CORE_FUNCTION_HPP_
-#define CORE_FUNCTION_HPP_
+#ifndef ONTOLOGY_CORE_FUNCTION_HPP
+#define ONTOLOGY_CORE_FUNCTION_HPP
 
 #include <memory>
 

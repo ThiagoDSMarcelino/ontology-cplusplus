@@ -1,5 +1,5 @@
-#ifndef CORE_LINEAR_HPP_
-#define CORE_LINEAR_HPP_
+#ifndef ONTOLOGY_CORE_LINEAR_HPP
+#define ONTOLOGY_CORE_LINEAR_HPP
 
 #include "constant.hpp"
 

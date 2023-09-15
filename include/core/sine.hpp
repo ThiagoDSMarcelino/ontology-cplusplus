@@ -1,5 +1,5 @@
-#ifndef ONTOLOGY_CORE_LOGARITHM_HPP
-#define ONTOLOGY_CORE_LOGARITHM_HPP
+#ifndef ONTOLOGY_CORE_SINE_HPP
+#define ONTOLOGY_CORE_SINE_HPP
 
 #include <cmath>
 #include "function.hpp"
@@ -8,16 +8,15 @@
 namespace Ontology::Core
 {
 
-    class Logarithm : public Function
+    class Sine : public Function
     {
     public:
-        Logarithm(const std::shared_ptr<Function> u, std::shared_ptr<Function> a) : u(u), a(a){};
+        Sine(const std::shared_ptr<Function> u) : u(u){};
         virtual double compute(const double);
         virtual std::shared_ptr<Function> derive();
 
     private:
         const std::shared_ptr<Function> u;
-        const std::shared_ptr<Function> a;
     };
 
 }

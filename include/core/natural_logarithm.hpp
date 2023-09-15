@@ -1,5 +1,5 @@
-#ifndef CORE_NATURAL_LOGARITHM_HPP_
-#define CORE_NATURAL_LOGARITHM_HPP_
+#ifndef ONTOLOGY_CORE_NATURAL_LOGARITHM_HPP
+#define ONTOLOGY_CORE_NATURAL_LOGARITHM_HPP
 
 #include <cmath>
 #include "function.hpp"
