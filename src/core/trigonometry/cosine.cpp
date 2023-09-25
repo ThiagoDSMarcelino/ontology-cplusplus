@@ -1,4 +1,4 @@
-#include "../../include/core/cosine.hpp"
+#include "../../../include/core/trigonometry/cosine.hpp"
 
 namespace Ontology::Core
 {

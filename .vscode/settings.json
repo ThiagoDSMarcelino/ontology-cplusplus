@@ -1,7 +1,8 @@
 {
-    "cSpell.words": [
-        "IFUNCTION"
-    ],
+    "editor.formatOnSave": true,
+    "[cpp]": {
+        "editor.formatOnSave": true
+    },
     "files.associations": {
         "ostream": "cpp",
         "any": "cpp",

@@ -1,9 +1,9 @@
-#ifndef ONTOLOGY_CORE_LOGARITHM_HPP
-#define ONTOLOGY_CORE_LOGARITHM_HPP
+#ifndef ONTOLOGY_CORE_LOGARITHMS_LOGARITHM_HPP
+#define ONTOLOGY_CORE_LOGARITHMS_LOGARITHM_HPP
 
 #include <cmath>
-#include "function.hpp"
-#include "../ontology.hpp"
+#include "../function.hpp"
+#include "../../ontology.hpp"
 
 namespace Ontology::Core
 {

@@ -1,4 +1,4 @@
-#include "../../include/core/logarithm.hpp"
+#include "../../../include/core/logarithms/logarithm.hpp"
 
 namespace Ontology::Core
 {

@@ -2,10 +2,10 @@
 #define ONTOLOGY_ONTOLOGY_HPP
 
 #include "core/linear.hpp"
-#include "core/logarithm.hpp"
-#include "core/natural_logarithm.hpp"
-#include "core/sine.hpp"
-#include "core/cosine.hpp"
+#include "core/logarithms/logarithm.hpp"
+#include "core/logarithms/natural_logarithm.hpp"
+#include "core/trigonometry/sine.hpp"
+#include "core/trigonometry/cosine.hpp"
 
 namespace Ontology
 {

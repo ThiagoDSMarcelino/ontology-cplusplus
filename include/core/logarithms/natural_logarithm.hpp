@@ -1,8 +1,8 @@
-#ifndef ONTOLOGY_CORE_NATURAL_LOGARITHM_HPP
-#define ONTOLOGY_CORE_NATURAL_LOGARITHM_HPP
+#ifndef ONTOLOGY_CORE_LOGARITHMS_NATURAL_LOGARITHM_HPP
+#define ONTOLOGY_CORE_LOGARITHMS_NATURAL_LOGARITHM_HPP
 
 #include <cmath>
-#include "function.hpp"
+#include "../function.hpp"
 
 namespace Ontology::Core
 {
